@@ -1,0 +1,11 @@
+h1 {
+color: navy;
+text-align : center;
+background-color: dimgray;
+}
+p {
+    color: teal;
+    font-size: 100px;
+    text-align:centre;
+    background-color: silver;
+}

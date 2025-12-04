@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
+
+<!-- grid=responsive page
+    advantages of grid
+1. Two-Dimensional Layouts: CSS Grid is designed for creating two-dimensional layouts, allowing for more complex and flexible designs compared to Flexbox, which is primarily one-dimensional.
+2. Explicit Positioning: Grid allows for explicit placement of items within the grid, giving developers
+more control over the layout.
+3. Overlapping Items: CSS Grid supports overlapping grid items, enabling creative design possibilities that are
+not easily achievable with Flexbox.
+4. Simplified Alignment: Grid provides powerful alignment capabilities for both rows and columns, making it easier to center and align items within the grid.
+5. Responsive Design: CSS Grid makes it easier to create responsive layouts that adapt to different screen sizes and orientations.
+
+GRID TERMANOLOGY
+1. Grid Line:It is made up of lines which run vertically and horizontally across the grid.
+The lines that define the start and end of rows and columns in a grid layout.
+2. Grid Track: The space between two adjacent grid lines, representing a row or column.
+row track and column track
+row track- horizontal space between two horizontal grid lines
+column track- vertical space between two vertical grid lines
+grid cell- the space between four grid lines, representing the intersection of a row and a column.
+grid area- a rectangular area defined by four grid lines, which can span multiple rows and columns.
+grid gap- the space between grid items, defined using the grid-gap property.
+grid container- the parent element that contains grid items and is defined using the display: grid; property.
+-->
+
+<!-- grid item - the child elements within a grid container that are positioned and sized according to the grid layout.
+ 
+make a grid container
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+    defining columns
+grid-template-columns: 200px 200px 200px ;
+this line defines three columns, each with a fixed width of 200px.
+This line defines the columns of the grid. It uses the repeat() function to create as many columns as will fit in the container (auto-fit), with each column having a minimum width of 250px and a maximum width of 1fr (fraction of available space).
+
+ 
+

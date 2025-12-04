@@ -1,0 +1,20 @@
+.bhoomika {display: flex;
+            flex-direction: row;
+            background-color: lightblue;
+            border: 2px solid pink;
+            justify-content: center;}
+.box { padding: 10px 10px;
+      background-color: beige;
+      border: 2px solid lightpink;
+      border-radius: 5px;
+      margin: 3px;
+      box-shadow: 0px 5px 5px;} 
+.b{ background-color: rgb(15, 107, 212);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    display: block;
+    margin: 20px auto 0 auto;}
